@@ -1,0 +1,53 @@
+.home1 {
+    background-image: url(images/home1.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+.content {
+    height: 100px;
+    width: 100px;
+}
+
+.nav-bar {
+    height: 60px;
+    display: flex;
+    padding: 30px 80px;
+}
+
+.nav-bar-nameDev {
+    color: #59C3C3;
+    font-size: 35px;
+    text-decoration: none;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+}
+
+.nav-bar-nameRaja {
+    margin: 0;
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+}
+
+.nav-bar-nameRaja, .nav-bar-nameDev {
+    display: inline-block;
+}
+
+a {
+    display: inline-block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
