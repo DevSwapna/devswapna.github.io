@@ -1,42 +1,27 @@
 /* Ensure imports are correctly placed */
-@import url(https://fonts.googleapis.com/css?family=Ubuntu);
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-html {
-    scroll-behavior: smooth;
-}
-
-body, html {
+/* General Reset */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.home1 {
-    background-image: url(images/home1.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    background-position: center;
-    position: relative;
-    text-decoration: none;
-    overflow-x: hidden;
+/* Fonts */
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
-.content {
-    height: 100px;
-    width: 100px;
-}
-
+/* Header */
 .nav-bar {
     height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 80px;
-    text-decoration: none;
-    width: 100%;
+    padding: 0 5%; /* Adjusted for responsiveness */
 }
 
 .nav-name {
@@ -44,38 +29,26 @@ body, html {
     align-items: center;
 }
 
-.nav-bar-nameDev {
-    color: #FED766;
-    font-size: 40px;
-    text-decoration: none;
-    font-family: "Ubuntu", sans-serif;
+.nav-bar-nameDev, .nav-bar-nameRaja {
+    font-size: 1.5rem;
     font-weight: 700;
+    color: #FED766;
+    text-decoration: none;
 }
 
 .nav-bar-nameRaja {
-    font-size: 40px;
-    color: #fff;
-    text-decoration: none;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 700;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
+    margin-right: 10px;
 }
 
 .nav-moreInfo {
     display: flex;
-    justify-content: flex-end;
-    margin-right: 50px;
+    align-items: center;
 }
 
 .nav-moreInfo a {
-    margin-left: 25px;
+    margin-left: 20px;
+    font-size: 1rem;
     color: #FEFEFE;
-    font-family: "Ubuntu", sans-serif;
-    font-size: 24px;
     text-decoration: none;
     transition: color 0.45s ease;
 }
@@ -84,90 +57,75 @@ a {
     color: #FE4A49;
 }
 
+/* Main Content */
 .home {
-    color: white;
-    padding: 100px 80px;
-    font-family: "Ubuntu", sans-serif;
+    padding: 10% 5%; /* Adjusted for responsiveness */
+    text-align: center;
 }
 
 .htext1 {
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 500;
 }
 
 .htext2 {
-    font-size: 75px;
+    font-size: 4rem;
     font-weight: 700;
-    margin-left: -4px;
 }
 
 .htext2-2 {
-    font-size: 75px;
     color: #FED766;
 }
 
 .htext3 {
-    font-size: 35px;
+    font-size: 2rem;
     font-weight: 600;
     color: #009FB7;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .homeLink {
+    margin-top: 20px;
     display: flex;
-    width: 500px;
-    font-family: "Ubuntu", sans-serif;
-    color: #FFF;
+    justify-content: center;
 }
 
 .homeLink a {
-    margin: 20px 0 0 5px;
-    padding: 12px 36px;
-    height: 56px;
-    font-size: 25px;
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
     font-weight: 500;
-    width: 156px; /* Add px to the width value */
-}
-
-.github, .yt, .discord {
+    text-decoration: none;
+    color: #FFF;
     background-color: #FE4A49;
     border-radius: 5px;
-    transition: color 0.45s ease-in-out;
+    transition: all 0.3s ease;
 }
 
-.discord:hover, .github:hover, .yt:hover {
+.homeLink a:hover {
     background-color: transparent;
     border: 2px solid #FE4A49;
-    color: #009FB7;
-    font-weight: 600;
+    color: #FE4A49;
 }
 
+/* About Section */
 .about {
+    padding: 10% 5%; /* Adjusted for responsiveness */
     background-color: #E6E6EA;
-    padding: 100px;
     text-align: center;
-    position: relative; /* Change position to relative */
-    left: 0;
-    width: 100%;
-    z-index: 1;
-    overflow-x: hidden;
 }
 
 .title {
-    font-family: "Ubuntu", sans-serif;
-    margin: 0 0 60px;
-    padding: 0 0 20px;
+    margin-bottom: 40px;
 }
 
 .tText1 {
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .tText2 {
+    font-size: 1.2rem;
     color: #fe4a49;
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
 }
 
 .tText2 p {
@@ -175,173 +133,87 @@ a {
 }
 
 .about-content {
-    margin: 0 0 60px;
-    padding: 0 0 20px;
     display: flex;
-    justify-content: center;
+    flex-direction: column-reverse; /* Adjusted for responsiveness */
     align-items: center;
-    gap: 20px;
 }
 
 .about-img-img {
-    height: 350px;
-    width: 350px;
-    border: 3px solid #FE4A49;
-    border-radius: 6px;
-    background-image: url(images/about-pfp.jpg);
-    background-size: cover;
-    flex-shrink: 0;
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
 }
 
 .aboutText {
-    font-family: "Ubuntu", sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    max-width: 600px;
-}
-
-p {
-    display: inline-block;
-    margin: 0;
+    max-width: 100%;
 }
 
 .aboutText-text1 {
-    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
     font-weight: 600;
-    font-size: 25px;
     margin-bottom: 10px;
 }
 
 .aboutText-text2 {
     text-align: justify;
-    font-family: "Poppins", sans-serif;
-    margin-right: 50px;
 }
 
+/* Languages Section */
 .lang {
+    padding: 10% 5%; /* Adjusted for responsiveness */
     background-color: #0a0a0a;
-    padding: 100px 0 0 0;
     text-align: center;
-    position: relative; /* Ensure relative positioning */
-    left: 0;
-    width: 100%;
-    z-index: 2;
-    overflow-x: hidden;
 }
 
 .lang-text {
+    font-size: 2rem;
+    font-weight: 700;
     color: #FED766;
-    font-size: 40px;
-    font-weight: 560;
-    font-family: "Ubuntu", sans-serif;
-    padding: 0 0 20px;
-    margin: 0 0 60px;
-    text-align: center;
+    margin-bottom: 40px;
 }
 
 .lang1 {
     display: flex;
-    padding: 30px 200px;
-    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.lang-css {
-    height: 312px;
-    width: 300px;
-    padding: 0;
+.lang-css, .lang-html, .lang-py {
+    width: calc(100% / 3 - 40px);
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
     background-color: #222222;
-    border-radius: 6px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family: "Poppins", sans-serif;
     color: white;
     transition: all 0.35s ease-in;
 }
 
-.css-text1 {
-    font-size: 24px;
-    font-family: "Ubuntu", sans-serif;
-    margin-top: 5px;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none; /* Remove any outlines */
-    border: none; /* Remove any borders */
-}
-
-.css-text2 {
-    margin: 10px 6px 0 6px;
-}
-
-.lang-html {
-    height: 335px;
-    width: 295px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: cneter;
-    flex-direction: column;
-    background-color: #222222;
-    font-family: "Poppins", sans-serif;
-    color: white;
-    border-radius: 6px;
-    margin: 0 0 0 100px;
-    transition: all 0.35s ease-in
-}
-
-.html-text1 {
-    font-family: "Ubuntu", sans-serif;
-    font-size: 24px;
-    margin-top: 5px;
-}
-
-.html-text2 {
-    margin: 10px 6px 0 6px;
-}
-
-.lang-py {
-    height: 312px;
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #222222;
-    font-family: "Poppins", sans-serif;
-    color: white;
-    margin: 0 0 0 100px;
-    transition: all 0.35s ease-in
-}
-
-.py-text1 {
-    font-size: 24px;
-    margin-top: 5px;
-}
-
-.py-text2 {
-    margin: 10px 6px 0 6px;
-}
-
-.thanks {
-    font-size: 40px;
-    color: #009FB7;
-    margin: 60px 0 70px;
-    font-family: "Lobster", sans-serif;
-    display: inline-block;
-}
-
-.lang-css:hover , .lang-html:hover , .lang-py:hover {
+.lang-css:hover, .lang-html:hover, .lang-py:hover {
     background-color: #C05746;
     cursor: pointer;
+}
+
+.lang-css i, .lang-html i, .lang-py i {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.py-text1, .html-text1, .css-text1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.py-text2, .html-text2, .css-text2 {
+    font-size: 1rem;
+}
+
+/* Thank You Section */
+.thanks {
+    font-size: 2rem;
+    color: #009FB7;
+    margin: 60px 0 70px;
+    font-family: 'Lobster', sans-serif;
+    display: inline-block;
 }
 
 .thanks:hover {
@@ -352,10 +224,148 @@ p {
 
 @keyframes thanks {
     from {
-        transform: rotate(0deg)
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Responsive Adjustments */
+@media only screen and (max-width: 1024px) {
+    /* Adjustments for tablets */
+    .nav-bar {
+        padding: 0 3%;
     }
 
-    to {
-        transform: rotate(360deg)
+    .home, .about, .lang {
+        padding: 15% 5%;
+    }
+
+    .htext2 {
+        font-size: 3.5rem;
+    }
+
+    .homeLink a {
+        margin: 10px 0;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-img-img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .lang1 {
+        padding: 20px;
+    }
+
+    .lang-css, .lang-html, .lang-py {
+        width: calc(100% - 40px);
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* Adjustments for smartphones */
+    .nav-bar {
+        padding: 0 3%;
+    }
+
+    .home, .about, .lang {
+        padding: 20% 5%;
+    }
+
+    .htext2 {
+        font-size: 3rem;
+    }
+
+    .homeLink {
+        flex-wrap: wrap;
+    }
+
+    .homeLink a {
+        margin: 10px 0;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-img-img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .lang1 {
+        padding: 10px;
+    }
+
+    .lang-css, .lang-html, .lang-py {
+        width: calc(100% - 40px);
+        margin: 10px 0;
+    }
+}
+
+/* Additional Media Queries for Smaller Devices */
+@media only screen and (max-width: 480px) {
+    /* Adjustments for smaller smartphones */
+    .nav-bar {
+        padding: 0 3%;
+    }
+
+    .home, .about, .lang {
+        padding: 30% 5%;
+    }
+
+    .htext2 {
+        font-size: 2.5rem;
+    }
+
+    .homeLink a {
+        margin: 10px 0;
+        padding: 8px 16px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-img-img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .lang1 {
+        padding: 10px;
+    }
+
+    .lang-css, .lang-html, .lang-py {
+        width: calc(100% - 20px);
+        margin: 10px 0;
+    }
+}
+
+/* Additional Media Queries for Larger Devices */
+@media only screen and (min-width: 1200px) {
+    /* Adjustments for larger screens */
+    .nav-bar {
+        padding: 0 10%;
+    }
+
+    .home, .about, .lang {
+        padding: 5% 10%;
+    }
+
+    .htext2 {
+        font-size: 5rem;
+    }
+
+    .about-img-img {
+        width: 400px;
+        height: 400px;
     }
 }
