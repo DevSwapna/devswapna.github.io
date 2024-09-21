@@ -191,6 +191,7 @@ a {
     background-image: url(images/about-pfp.jpg);
     background-size: cover;
     flex-shrink: 0;
+    border-radius: 50%;
 }
 
 .aboutText {
