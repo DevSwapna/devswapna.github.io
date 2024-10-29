@@ -25,16 +25,16 @@ body, html {
 }
 
 .content {
-    height: 100px;
-    width: 100px;
+    height: 6.25rem;
+    width: 6.25rem;
 }
 
 .nav-bar {
-    height: 100px;
+    height: 5.25rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 80px;
+    padding: 0 5rem;
     text-decoration: none;
     width: 100%;
 }
@@ -46,14 +46,14 @@ body, html {
 
 .nav-bar-nameDev {
     color: #FED766;
-    font-size: 40px;
+    font-size: 2.5rem;
     text-decoration: none;
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
 }
 
 .nav-bar-nameRaja {
-    font-size: 40px;
+    font-size: 2.5rem;
     color: #fff;
     text-decoration: none;
     font-family: "Ubuntu", sans-serif;
@@ -68,14 +68,14 @@ a {
 .nav-moreInfo {
     display: flex;
     justify-content: flex-end;
-    margin-right: 50px;
+    margin-right: 3.125rem;
 }
 
 .nav-moreInfo a {
-    margin-left: 25px;
+    margin-left: 1.5625rem;
     color: #FEFEFE;
     font-family: "Ubuntu", sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     text-decoration: none;
     transition: color 0.45s ease;
 }
@@ -86,67 +86,67 @@ a {
 
 .home {
     color: white;
-    padding: 100px 80px;
+    padding: 6.25rem 5rem;
     font-family: "Ubuntu", sans-serif;
 }
 
 .htext1 {
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 500;
 }
 
 .htext2 {
-    font-size: 75px;
+    font-size: 4.688rem;
     font-weight: 700;
-    margin-left: -4px;
+    margin-left: -0.25rem;
 }
 
 .htext2-2 {
-    font-size: 75px;
+    font-size: 4.688rem;
     color: #FED766;
 }
 
 .htext3 {
-    font-size: 35px;
+    font-size: 2.188rem;
     font-weight: 600;
     color: #009FB7;
-    margin-top: 5px;
+    margin-top: 0.3125rem;
 }
 
 .homeLink {
     display: flex;
-    width: 500px;
+    width: 19.5313rem;
     font-family: "Ubuntu", sans-serif;
     color: #FFF;
 }
 
 .homeLink a {
-    margin: 20px 0 0 5px;
-    padding: 12px 36px;
-    height: 56px;
-    font-size: 25px;
+    margin: 1.25rem 0 0 0.3125rem;
+    padding: 0.75rem 2.25rem;
+    height: 3.5rem;
+    font-size: 1.5625rem;
     font-weight: 500;
-    width: 156px; /* Add px to the width value */
+    width: 9.75rem;
 }
 
 .github, .yt, .discord {
     background-color: #FE4A49;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     transition: color 0.45s ease-in-out;
 }
 
 .discord:hover, .github:hover, .yt:hover {
     background-color: transparent;
-    border: 2px solid #FE4A49;
+    border: 0.125rem solid #FE4A49;
     color: #009FB7;
     font-weight: 600;
 }
 
 .about {
     background-color: #E6E6EA;
-    padding: 100px;
+    padding: 6.25rem;
     text-align: center;
-    position: relative; /* Change position to relative */
+    position: relative;
     left: 0;
     width: 100%;
     z-index: 1;
@@ -155,17 +155,17 @@ a {
 
 .title {
     font-family: "Ubuntu", sans-serif;
-    margin: 0 0 60px;
-    padding: 0 0 20px;
+    margin: 0 0 3.75rem;
+    padding: 0 0 1.25rem;
 }
 
 .tText1 {
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .tText2 {
     color: #fe4a49;
-    font-size: 24px;
+    font-size: 1.5rem;
     display: flex;
     justify-content: center;
 }
@@ -175,23 +175,22 @@ a {
 }
 
 .about-content {
-    margin: 0 0 60px;
-    padding: 0 0 20px;
+    margin: 0 0 3.75rem;
+    padding: 0 0 1.25rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .about-img-img {
-    height: 350px;
-    width: 350px;
-    border: 3px solid #FE4A49;
-    border-radius: 6px;
+    height: 21.875rem;
+    width: 21.875rem;
+    border: 0.1875rem solid #FE4A49;
+    border-radius: 50%;
     background-image: url(images/about-pfp.jpg);
     background-size: cover;
     flex-shrink: 0;
-    border-radius: 50%;
 }
 
 .aboutText {
@@ -200,7 +199,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    max-width: 600px;
+    max-width: 37.5rem;
 }
 
 p {
@@ -211,21 +210,21 @@ p {
 .aboutText-text1 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    font-size: 25px;
-    margin-bottom: 10px;
+    font-size: 1.5625rem;
+    margin-bottom: 0.625rem;
 }
 
 .aboutText-text2 {
     text-align: justify;
     font-family: "Poppins", sans-serif;
-    margin-right: 50px;
+    margin-right: 3.125rem;
 }
 
 .lang {
     background-color: #0a0a0a;
-    padding: 100px 0 0 0;
+    padding: 6.25rem 0 0 0;
     text-align: center;
-    position: relative; /* Ensure relative positioning */
+    position: relative;
     left: 0;
     width: 100%;
     z-index: 2;
@@ -234,26 +233,26 @@ p {
 
 .lang-text {
     color: #FED766;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 560;
     font-family: "Ubuntu", sans-serif;
-    padding: 0 0 20px;
-    margin: 0 0 60px;
+    padding: 0 0 1.25rem;
+    margin: 0 0 3.75rem;
     text-align: center;
 }
 
 .lang1 {
     display: flex;
-    padding: 30px 200px;
+    padding: 1.875rem 12.5rem;
     height: auto;
 }
 
 .lang-css {
-    height: 312px;
-    width: 300px;
+    height: 19.5rem;
+    width: 18.75rem;
     padding: 0;
     background-color: #222222;
-    border-radius: 6px;
+    border-radius: 0.3125rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -265,52 +264,52 @@ p {
 }
 
 .css-text1 {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: "Ubuntu", sans-serif;
-    margin-top: 5px;
+    margin-top: 0.3125rem;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: none; /* Remove any outlines */
-    border: none; /* Remove any borders */
+    outline: none;
+    border: none;
 }
 
 .css-text2 {
-    margin: 10px 6px 0 6px;
+    margin: 0.625rem 0.375rem 0 0.375rem;
 }
 
 .lang-html {
-    height: 335px;
-    width: 295px;
+    height: 20.9375rem;
+    width: 18.4375rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: cneter;
+    text-align: center;
     flex-direction: column;
     background-color: #222222;
     font-family: "Poppins", sans-serif;
     color: white;
-    border-radius: 6px;
-    margin: 0 0 0 100px;
-    transition: all 0.35s ease-in
+    border-radius: 0.3125rem;
+    margin: 0 0 0 6.25rem;
+    transition: all 0.35s ease-in;
 }
 
 .html-text1 {
     font-family: "Ubuntu", sans-serif;
-    font-size: 24px;
-    margin-top: 5px;
+    font-size: 1.5rem;
+    margin-top: 0.3125rem;
 }
 
 .html-text2 {
-    margin: 10px 6px 0 6px;
+    margin: 0.625rem 0.375rem 0 0.375rem;
 }
 
 .lang-py {
-    height: 312px;
-    width: 300px;
+    height: 19.5rem;
+    width: 18.75rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -319,44 +318,101 @@ p {
     background-color: #222222;
     font-family: "Poppins", sans-serif;
     color: white;
-    margin: 0 0 0 100px;
-    transition: all 0.35s ease-in
+    margin: 0 0 0 6.25rem;
+    transition: all 0.35s ease-in;
 }
 
 .py-text1 {
-    font-size: 24px;
-    margin-top: 5px;
+    font-size: 1.5rem;
+    margin-top: 0.3125rem;
 }
 
 .py-text2 {
-    margin: 10px 6px 0 6px;
+    margin: 0.625rem 0.375rem 0 0.375rem;
 }
 
 .thanks {
-    font-size: 40px;
+    font-size: 2.5rem;
     color: #009FB7;
-    margin: 60px 0 70px;
+    margin: 3.75rem 0 4.375rem;
     font-family: "Lobster", sans-serif;
     display: inline-block;
 }
 
-.lang-css:hover , .lang-html:hover , .lang-py:hover {
-    background-color: #C05746;
-    cursor: pointer;
+.lang-css:hover, .lang-html:hover, .lang-py:hover {
+    transform: scale(1.05);
+    transition: transform 0.35s ease-in-out;
 }
 
-.thanks:hover {
-    animation: 3s 1 alternate thanks;
-    color: #FE4A49;
-    cursor: pointer;
-}
-
-@keyframes thanks {
-    from {
-        transform: rotate(0deg)
+/* Responsive styles */
+@media (max-width: 768px) {
+    .nav-bar {
+        padding: 0 2.5rem;
+        flex-direction: column;
     }
 
-    to {
-        transform: rotate(360deg)
+    .home {
+        padding: 3.125rem 2.5rem;
+    }
+
+    .homeLink {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lang1 {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .lang-css, .lang-html, .lang-py {
+        margin: 1.25rem 0;
+        width: 90%;
+    }
+
+    .nav-moreInfo {
+        margin-right: 0;
+        justify-content: center;
+    }
+
+    .nav-moreInfo a {
+        font-size: 1.25rem;
+    }
+
+    .aboutText {
+        max-width: 90%;
+    }
+
+    .about-img-img {
+        height: 18.75rem;
+        width: 18.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-bar-nameDev,
+    .nav-bar-nameRaja {
+        font-size: 2rem;
+    }
+
+    .htext2 {
+        font-size: 3rem;
+    }
+
+    .htext3 {
+        font-size: 1.5rem;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .thanks {
+        font-size: 2rem;
+    }
+
+    .lang-text {
+        font-size: 2rem;
     }
 }
