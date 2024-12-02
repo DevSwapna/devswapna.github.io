@@ -388,6 +388,12 @@ p {
         height: 18.75rem;
         width: 18.75rem;
     }
+    .about {
+        padding: 0;
+    }
+    .lang1 {
+        margin-left: 35px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -414,5 +420,11 @@ p {
 
     .lang-text {
         font-size: 2rem;
+    }
+    .about {
+        padding: 0;
+    }
+    .lang1 {
+        margin-left: 35px;
     }
 }
